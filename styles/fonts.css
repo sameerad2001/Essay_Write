@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+/* Classes */
+.logoText {
+    font-family: 'Concert One';
+}
+
+/* Neon lights */
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 20px rgb(176, 233, 255),
+            0 0 40px rgb(179, 176, 255),
+            0 0 50px rgb(176, 233, 255);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+/* 
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 20px rgb(239, 176, 255),
+            0 0 40px rgb(239, 176, 255),
+            0 0 50px rgb(239, 176, 255);
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+} */
