@@ -6,7 +6,6 @@ import { Box, Typography } from '@mui/material'
 import Backdrop from '@mui/material/Backdrop';
 import Switch from '@mui/material/Switch';
 import Fade from '@mui/material/Fade';
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
@@ -52,7 +51,6 @@ export default function Settings(props) {
                 keepMounted
             >
                 <Fade in={openSettings}>
-
                     <Box sx={settingsModalStyle} className="sm:w-full md:w-1/2 lg:w-[40%]">
                         <div className="flex justify-center mb-5">
                             <Typography id="modal-modal-title" variant="h6" component="h2">
@@ -145,7 +143,7 @@ export default function Settings(props) {
                                 Theme :
                             </span>
 
-                            <FormControl size="small" variant="standard">
+                            <FormControl size="small" variant="standard" >
                                 <Select
                                     color="success"
                                     sx={{
@@ -188,7 +186,6 @@ export default function Settings(props) {
                             </a>
                         </div>
                     </Box>
-
                 </Fade>
             </Modal>
         </>

@@ -33,15 +33,15 @@ export default function Navbar(props) {
     return (
         <div className="navbar flex items-end justify-between pt-5">
 
-            <div className="flex items-end">
-                <Box display="inline" color="info.main" className="mr-2">
+            <div className="flex">
+                <Box display="inline" color="info.main" className="mr-2 flex items-center">
                     {/* <KeyboardIcon fontSize='large' /> */}
                     <Image src="/KeyboardDracula.svg" width="45" height="30" alt="logo" />
                 </Box>
 
-                <div className="flex flex-col">
+                <div className="flex justify-center">
                     {/* <span className="text-sm"> Essay read</span> */}
-                    <span className="logoText text-4xl"> EssayWrite </span>
+                    <span className="logoText text-3xl flex justify-center"> EssayWrite </span>
                 </div>
             </div>
 

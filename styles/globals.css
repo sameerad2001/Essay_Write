@@ -10,6 +10,30 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6272a49a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #282a36;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Classes */
+.content {
+  height: 95vh;
+}
+
 /* Color schemes */
 .dracula {
   background-color: #282a36;
@@ -40,28 +64,4 @@ body {
   background-color: #282828;
   color: #ebdbb2;
   caret-color: #e2b714;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #6272a49a;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #282a36;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Classes */
-.content {
-  height: 95vh;
 }
