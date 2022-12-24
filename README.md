@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Essay Write
 
-## Getting Started
+> I designed this application to help me improve my typing speed and to study essay writing at the same time, hence the name "Essay Write"
 
-First, run the development server:
+### General 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The user can select one of 2 modes (random mode or essay mode) after which an appropriate test is generated.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The user can attempt this test and upon completion they will be presented with relevant stats such as **accuracy** and **speed (Words per minute)**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Modes :
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Random mode : 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    In this mode the user can select a word count and the application will generate a test containing the specified amount of words.
 
-## Learn More
+2. Essay mode :
 
-To learn more about Next.js, take a look at the following resources:
+    In this mode the user is expected to supply an essay that they wish to study, the application will generate a test based on the given essay.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### How are the stats calculated?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Speed (WPM) : (`Number of correct keystrokes` / 5) / `Time taken`
 
-## Deploy on Vercel
+    - The number of correct keystrokes is divided by 5 because on average a typical english word consists of 5 letters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Accuracy : (`Number of correct keystrokes` / `Total number of keystrokes`) * 100
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Demo :
+
+1. Application + Random mode :
+
+    ![Demo](https://github.com/sameerad2001/Essay_Write/blob/master/public/Demo1.gif)
+
+
+2. Essay mode :
+
+    ![Demo](https://github.com/sameerad2001/Essay_Write/blob/master/public/Demo2.gif)
+
+
+---
+
+
+The demos are not a representation of my actual typing speed. My excuse for the horrible performance is that I was too busy thinking about the recording ....
+
+My average typing speed on MonkeyType is around 71 WPM
