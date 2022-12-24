@@ -31,12 +31,12 @@ The user can attempt this test and upon completion they will be presented with r
 
 1. Application + Random mode :
 
-    ![Demo](https://github.com/sameerad2001/Essay_Write/blob/master/public/Demo1.gif)
+![Demo](https://github.com/sameerad2001/Essay_Write/blob/master/public/Demo1.gif)
 
 
 2. Essay mode :
 
-    ![Demo](https://github.com/sameerad2001/Essay_Write/blob/master/public/Demo2.gif)
+![Demo](https://github.com/sameerad2001/Essay_Write/blob/master/public/Demo2.gif)
 
 
 ---
