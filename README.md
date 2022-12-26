@@ -2,6 +2,17 @@
 
 > I designed this application to help me improve my typing speed and to study essay writing at the same time, hence the name "Essay Write"
 
+### Demo :
+
+1. Application + Random mode :
+
+![Demo](https://github.com/sameerad2001/Essay_Write/blob/main/public/Demo1.gif?raw=true)
+
+
+2. Essay mode :
+
+![Demo](https://github.com/sameerad2001/Essay_Write/blob/main/public/Demo2.gif?raw=true)
+
 
 ### Overview : 
 
@@ -14,6 +25,7 @@ for example punctuations and capital letters can be removed.
 
 There are a few novelty features such as enabling **bionic reading**
 
+
 ### Modes :
 
 1. **Random mode** : 
@@ -24,6 +36,7 @@ There are a few novelty features such as enabling **bionic reading**
 
     In this mode the user is expected to supply an essay that they wish to study, the application will generate a test based on the given essay.
 
+
 ### How are the stats calculated?
 
 - Speed (WPM) : (`Number of correct keystrokes` / 5) / `Time taken`
@@ -31,19 +44,6 @@ There are a few novelty features such as enabling **bionic reading**
     - The number of correct keystrokes is divided by 5 because on average a typical English word consists of 5 letters
 
 - Accuracy : (`Number of correct keystrokes` / `Total number of keystrokes`) * 100
-
-
-### Demo :
-
-1. Application + Random mode :
-
-![Demo](https://github.com/sameerad2001/Essay_Write/blob/main/public/Demo1.gif?raw=true)
-
-
-2. Essay mode :
-
-![Demo](https://github.com/sameerad2001/Essay_Write/blob/main/public/Demo2.gif?raw=true)
-
 
 ---
 
