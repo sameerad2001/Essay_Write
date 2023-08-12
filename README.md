@@ -49,5 +49,3 @@ There are a few novelty features such as enabling **bionic reading**
 
 
 The demos are not a representation of my actual typing speed. My excuse for the horrible performance is that I was too busy thinking about the recording ....
-
-My average typing speed on MonkeyType is around 71 WPM
